@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-//test comment
+//new comment in all clones
 struct HabitPhase {
     let title: String
     let subtitle: String

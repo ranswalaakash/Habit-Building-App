@@ -29,7 +29,24 @@ struct CollaborativeActivityList {
     let title: String
     let description: String
     let activityImage: String
+    
+    let durationMinutes: Int
+    let ageRange: String
+    let materialsLabel: String
+    
     let steps: [CollaborativeActivitySteps]
+
+    var timeCategory: String {
+        switch durationMinutes {
+        case ..<15: return "quick"
+        case 15..<30: return "medium"
+        default: return "long"
+        }
+    }
+    
+    var timeLabel: String {
+        return "\(durationMinutes) min"
+    }
 }
 
 

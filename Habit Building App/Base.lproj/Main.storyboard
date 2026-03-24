@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
         <!--Add RewardVC-->
         <scene sceneID="d9Q-7a-Ur5">
             <objects>
-                <viewController storyboardIdentifier="AddRewardViewController" id="UaC-y4-2iu" customClass="AddRewardVC" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddRewardViewController" id="UaC-y4-2iu" customClass="AddRewardVC" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iHf-f8-ijN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +177,7 @@
         <!--New Reward Bafilas Table View Controller-->
         <scene sceneID="Yn8-M5-rwk">
             <objects>
-                <tableViewController id="uFO-w5-Q6c" customClass="NewRewardBafilasTableViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="uFO-w5-Q6c" customClass="NewRewardBafilasTableViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="hwv-CM-yKT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -261,7 +261,7 @@
         <!--Add New Reward-->
         <scene sceneID="TfP-ZZ-kh1">
             <objects>
-                <tableViewController storyboardIdentifier="AddRewardsVC" id="RUv-oh-Vdw" customClass="AddRewardsTableViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="AddRewardsVC" id="RUv-oh-Vdw" customClass="AddRewardsTableViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="iRk-qX-hq7">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -468,7 +468,7 @@
         <!--Reward Board-->
         <scene sceneID="5A1-5S-scN">
             <objects>
-                <viewController storyboardIdentifier="RewardBoardVC" title="Reward Board" id="B6c-bX-2fK" customClass="RewardsBoardViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RewardBoardVC" title="Reward Board" id="B6c-bX-2fK" customClass="RewardsBoardViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CII-Vt-At3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -477,7 +477,7 @@
                                 <rect key="frame" x="0.0" y="172" width="393" height="612"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RewardCell" id="skD-c3-ZlV" customClass="RewardsCellTableViewCell" customModule="Habit_Harmony" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RewardCell" id="skD-c3-ZlV" customClass="RewardsCellTableViewCell" customModule="Habit_Building_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="52"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="skD-c3-ZlV" id="TDb-jb-U9X">
@@ -593,44 +593,71 @@
         <!--Collaborative Activities-->
         <scene sceneID="z5v-6x-iG6">
             <objects>
-                <viewController id="nOq-Mp-bDm" customClass="CollaborativeActivitiesListViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Rag-Ji-392">
+                <viewController id="nOq-Mp-bDm" customClass="CollaborativeActivitiesListViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nf4-7q-Hrh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xAl-0u-xEJ">
-                                <rect key="frame" x="0.0" y="172" width="393" height="563"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Uhk-Te-5K0">
-                                    <size key="itemSize" width="128" height="128"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="fac-Ut-qhg">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="nqn-lE-8Qh">
-                                            <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="WQe-EL-5MH">
+                                <rect key="frame" x="12" y="180" width="369" height="555"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose activities based on your available time and your child's interests." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fcs-P5-Dio">
+                                        <rect key="frame" x="0.0" y="0.0" width="369" height="38.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HRZ-oZ-xrY">
+                                        <rect key="frame" x="0.0" y="50.333333333333343" width="369" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="xaC-r8-jL0"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="All"/>
+                                            <segment title="Under 15 min"/>
+                                            <segment title="15-30 min"/>
+                                            <segment title="30+ min"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="segmentChanged:" destination="nOq-Mp-bDm" eventType="valueChanged" id="cdr-3l-CFw"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jna-2j-nsW">
+                                        <rect key="frame" x="0.0" y="94.333333333333286" width="369" height="460.66666666666674"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9cX-AJ-JV2">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="vq1-Wq-i9X">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UPM-Hc-raj">
+                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </collectionViewCellContentView>
+                                            </collectionViewCell>
+                                        </cells>
+                                    </collectionView>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="ddb-iz-SEe"/>
+                        <viewLayoutGuide key="safeArea" id="Mbd-a6-Ja2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xAl-0u-xEJ" firstAttribute="leading" secondItem="ddb-iz-SEe" secondAttribute="leading" id="EzH-gl-dEa"/>
-                            <constraint firstItem="ddb-iz-SEe" firstAttribute="trailing" secondItem="xAl-0u-xEJ" secondAttribute="trailing" id="MiR-Th-RAq"/>
-                            <constraint firstItem="ddb-iz-SEe" firstAttribute="bottom" secondItem="xAl-0u-xEJ" secondAttribute="bottom" id="Nau-lZ-ntN"/>
-                            <constraint firstItem="xAl-0u-xEJ" firstAttribute="top" secondItem="ddb-iz-SEe" secondAttribute="top" id="t9B-8H-OTM"/>
+                            <constraint firstItem="WQe-EL-5MH" firstAttribute="top" secondItem="Mbd-a6-Ja2" secondAttribute="top" constant="8" id="DNM-YO-g2t"/>
+                            <constraint firstItem="Mbd-a6-Ja2" firstAttribute="trailing" secondItem="WQe-EL-5MH" secondAttribute="trailing" constant="12" id="E4d-Ch-4YE"/>
+                            <constraint firstItem="WQe-EL-5MH" firstAttribute="leading" secondItem="Mbd-a6-Ja2" secondAttribute="leading" constant="12" id="Zdq-nK-h1V"/>
+                            <constraint firstItem="Mbd-a6-Ja2" firstAttribute="bottom" secondItem="WQe-EL-5MH" secondAttribute="bottom" id="mBk-k4-lZz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Collaborative Activities" id="eRm-5L-4UO"/>
                     <connections>
-                        <outlet property="collaborativeActivitiesCollectionView" destination="xAl-0u-xEJ" id="oMU-y1-QsD"/>
+                        <outlet property="collaborativeActivitiesCollectionView" destination="jna-2j-nsW" id="fWO-pT-jWN"/>
+                        <outlet property="filterSegment" destination="HRZ-oZ-xrY" id="A9S-KF-x4l"/>
                         <segue destination="eNI-lN-UYg" kind="show" identifier="collaborative_to_steps" id="qtU-MD-l12"/>
                     </connections>
                 </viewController>
@@ -641,7 +668,7 @@
         <!--Collaborative Activity Steps View Controller-->
         <scene sceneID="gkW-jU-xB6">
             <objects>
-                <viewController id="eNI-lN-UYg" customClass="CollaborativeActivityStepsViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eNI-lN-UYg" customClass="CollaborativeActivityStepsViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dzQ-QP-YZX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -676,7 +703,7 @@
                                     </connections>
                                 </button>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="step_cell" rowHeight="167" id="0E8-jg-KAE" customClass="CollaborativeActivityStepCell" customModule="Habit_Harmony" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="step_cell" rowHeight="167" id="0E8-jg-KAE" customClass="CollaborativeActivityStepCell" customModule="Habit_Building_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="167"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0E8-jg-KAE" id="clQ-5s-mpQ">
@@ -780,7 +807,7 @@
         <!--Capture Activity View Controller-->
         <scene sceneID="nIV-P2-dkF">
             <objects>
-                <viewController id="xF6-hT-jmV" customClass="CaptureActivityViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xF6-hT-jmV" customClass="CaptureActivityViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N1i-Ws-b4S">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -833,7 +860,7 @@
         <!--Reward Board-->
         <scene sceneID="AOQ-tt-UH8">
             <objects>
-                <viewController id="qCp-6O-cgH" customClass="RewardBoardViewController" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qCp-6O-cgH" customClass="RewardBoardViewController" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="44P-wx-c6Q">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -889,7 +916,7 @@
         <!--View Reward-->
         <scene sceneID="OiZ-c1-oyv">
             <objects>
-                <viewController storyboardIdentifier="view_rewards" id="SOT-jH-tuq" customClass="ViewReward" customModule="Habit_Harmony" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view_rewards" id="SOT-jH-tuq" customClass="ViewReward" customModule="Habit_Building_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jb3-xa-7jo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -906,7 +933,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="fSR-V8-R72" customClass="ViewRewardTableViewCell" customModule="Habit_Harmony" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="fSR-V8-R72" customClass="ViewRewardTableViewCell" customModule="Habit_Building_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="377" height="41.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fSR-V8-R72" id="ZzQ-PT-y9y">
@@ -1014,6 +1041,9 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

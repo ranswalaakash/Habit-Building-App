@@ -1,15 +1,14 @@
 //
-//  CaptureActivityViewController.swift
-//  Habit Harmony
+//  CollaborativeActivitiesListViewController.swift
+//  Habit Building App
 //
-//  Created by GEU on 07/02/26.
+//  Created by Nandini Khandelwal on 25/03/26.
 //
 
 import UIKit
 
-class CaptureActivityViewController: UIViewController {
+class CollaborativeActivitiesListViewController: UIViewController {
 
-    var activity: CollaborativeActivityList?
     override func viewDidLoad() {
         super.viewDidLoad()
 

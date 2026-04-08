@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecordCardCell" customModule="Habit_Harmony" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RvW-N5-Bbo">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="140"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="34w-jE-bvt">
+                                <rect key="frame" x="8" y="8" width="144" height="124"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" ambiguous="YES" image="square.and.arrow.up" catalog="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z7I-hA-riz">
+                                        <rect key="frame" x="0.0" y="-2" width="144" height="71.333333333333343"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsQ-RU-fXe">
+                                        <rect key="frame" x="0.0" y="77.666666666666671" width="144" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKm-3y-t8H">
+                                        <rect key="frame" x="0.0" y="106" width="144" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="34w-jE-bvt" firstAttribute="leading" secondItem="RvW-N5-Bbo" secondAttribute="leading" constant="8" id="1zD-Dw-jBJ"/>
+                            <constraint firstAttribute="bottom" secondItem="34w-jE-bvt" secondAttribute="bottom" constant="8" id="IEH-GV-bm8"/>
+                            <constraint firstItem="34w-jE-bvt" firstAttribute="top" secondItem="RvW-N5-Bbo" secondAttribute="top" constant="8" id="WAK-bX-a7n"/>
+                            <constraint firstAttribute="trailing" secondItem="34w-jE-bvt" secondAttribute="trailing" constant="8" id="iWH-ig-E9Z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="RvW-N5-Bbo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0bt-aS-4me"/>
+                <constraint firstAttribute="bottom" secondItem="RvW-N5-Bbo" secondAttribute="bottom" id="eQJ-a2-sH0"/>
+                <constraint firstItem="RvW-N5-Bbo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="heN-zj-WZk"/>
+                <constraint firstAttribute="trailing" secondItem="RvW-N5-Bbo" secondAttribute="trailing" id="lvS-7e-jPg"/>
+            </constraints>
+            <connections>
+                <outlet property="descriptionLabel" destination="IKm-3y-t8H" id="4zg-Y5-Flu"/>
+                <outlet property="iconImageView" destination="Z7I-hA-riz" id="dek-Yk-BmD"/>
+                <outlet property="numberLabel" destination="TsQ-RU-fXe" id="X2W-wj-k7P"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="153.52112676056339"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="110" height="128"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

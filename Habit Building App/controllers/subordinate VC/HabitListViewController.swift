@@ -112,8 +112,30 @@ extension HabitListViewController: UICollectionViewDataSource {
         }
     }
 
+}
 
+extension HabitListViewController {
 
+    func collectionView(
+        _ collectionView: UICollectionView,
+        didSelectItemAt indexPath: IndexPath
+    ) {
+        performSegue(
+            withIdentifier: "habit_list_to_description",
+            sender: indexPath
+        )
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if segue.identifier == "habit_list_to_description",
+           let indexPath = sender as? IndexPath,
+           let destination = segue.destination as? HabitDescription {
+
+            let selectedHabit = filteredHabits[indexPath.row]
+            destination.habit = selectedHabit
+        }
+    }
 }
 
 

@@ -23,7 +23,7 @@ struct CollaborativePhase{
     let iconImage: String
 }
 
-struct CollaborativeActivityList {
+struct CollaborativeActivityList: Identifiable, Codable {
     
     let id: UUID
     let title: String
@@ -31,8 +31,9 @@ struct CollaborativeActivityList {
     let activityImage: String
     
     let durationMinutes: Int
-    let ageRange: String
+    let preferredAge: Int
     let materialsLabel: String
+    let needsMaterials: Bool
     
     let steps: [CollaborativeActivitySteps]
 
@@ -44,30 +45,32 @@ struct CollaborativeActivityList {
         }
     }
     
+    
     var timeLabel: String {
         return "\(durationMinutes) min"
     }
 }
 
 
-struct CollaborativeActivitySteps {
-    let stepLabel: String     // "Step 1", "Step 2", "Benefits"
-    let title: String         // Main heading
-    let detail: String        // Expandable text
+struct CollaborativeActivitySteps: Codable  {
+    let stepLabel: String
+    let title: String
+    let detail: String
+    let imageName: String   
     var isExpanded: Bool
 }
 
 struct HabitList: Identifiable, Codable {
     
-    let id: UUID
-    let title: String
-    let icon: String
-    let phase: HabitPhaseType
-    let description: String
+    let id: String
+    var title: String
+    var icon: String
+    var phase: HabitPhaseType
+    var description: String
     
-    let traits: [String]
-    let benefits: [String]
-    let harms: [String]
+    var traits: [String]
+    var benefits: [String]
+    var harms: [String]
 }
 
 enum HabitPhaseType: String, Codable {
@@ -78,8 +81,22 @@ enum HabitPhaseType: String, Codable {
 }
 
 struct HabitCompletion {
-    let habitId: UUID
+    let habitId: String
     let date: Date
+}
+
+enum HabitStatus {
+    case notDone
+    case approved
+    case pendingApproval
+    case rejected
+}
+
+struct Habit {
+    let habitId: String
+    var title: String
+    var status: HabitStatus
+    var assignedDates: [Date]
 }
 
 struct ChildHabitProgress {

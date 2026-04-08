@@ -1,0 +1,132 @@
+[
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000001",
+    "title": "Make Bed",
+    "icon": "bed.double",
+    "phase": "foundational",
+    "description": "Build discipline by organising your space",
+    "traits": ["Discipline", "Responsibility", "Order"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000002",
+    "title": "Drink Water",
+    "icon": "drop.fill",
+    "phase": "foundational",
+    "description": "Stay hydrated throughout the day",
+    "traits": ["Health", "Awareness", "Routine"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000003",
+    "title": "Wash Hands",
+    "icon": "hand.raised",
+    "phase": "foundational",
+    "description": "Practice cleanliness and prevent illness",
+    "traits": ["Cleanliness", "Health", "Awareness"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000004",
+    "title": "Sleep on Time",
+    "icon": "moon.fill",
+    "phase": "foundational",
+    "description": "Ensure proper rest and recovery",
+    "traits": ["Discipline", "Energy", "Focus"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000005",
+    "title": "Daily Reading",
+    "icon": "book.fill",
+    "phase": "growth",
+    "description": "Develop a consistent reading habit",
+    "traits": ["Focus", "Curiosity", "Learning"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000006",
+    "title": "Write Journal",
+    "icon": "pencil",
+    "phase": "growth",
+    "description": "Express thoughts and reflect daily",
+    "traits": ["Reflection", "Expression", "Awareness"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000007",
+    "title": "Practice Drawing",
+    "icon": "paintbrush",
+    "phase": "growth",
+    "description": "Enhance creativity through drawing",
+    "traits": ["Creativity", "Patience", "Expression"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000008",
+    "title": "Pack School Bag",
+    "icon": "backpack.fill",
+    "phase": "responsibility",
+    "description": "Plan ahead for school responsibilities",
+    "traits": ["Responsibility", "Planning", "Independence"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000009",
+    "title": "Clean Room",
+    "icon": "house.fill",
+    "phase": "responsibility",
+    "description": "Maintain cleanliness and ownership",
+    "traits": ["Ownership", "Order", "Discipline"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000010",
+    "title": "Help Parents",
+    "icon": "person.2.fill",
+    "phase": "responsibility",
+    "description": "Support family members at home",
+    "traits": ["Empathy", "Support", "Gratitude"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000011",
+    "title": "Solve Puzzles",
+    "icon": "brain.head.profile",
+    "phase": "academics",
+    "description": "Improve logical and analytical skills",
+    "traits": ["Logic", "Problem Solving", "Focus"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000012",
+    "title": "Learn New Words",
+    "icon": "text.book.closed",
+    "phase": "academics",
+    "description": "Enhance vocabulary and language skills",
+    "traits": ["Vocabulary", "Memory", "Learning"],
+    "benefits": [],
+    "harms": []
+  },
+  {
+    "id": "B2C3D4E5-0002-0002-0002-000000000013",
+    "title": "Math Practice",
+    "icon": "plus.slash.minus",
+    "phase": "academics",
+    "description": "Build confidence in mathematics",
+    "traits": ["Accuracy", "Logic", "Confidence"],
+    "benefits": [],
+    "harms": []
+  }
+]

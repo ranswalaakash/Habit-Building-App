@@ -14,6 +14,8 @@ class CollaborativeActivityStepsViewController: UIViewController {
     @IBOutlet weak var headerDescriptionLabel: UILabel!
     @IBOutlet weak var actionButton: UIButton!
 
+   
+    
     var activity: CollaborativeActivityList?
     private var steps: [CollaborativeActivitySteps] = []
     private var expandedIndex: Int?
@@ -93,16 +95,22 @@ extension CollaborativeActivityStepsViewController: UITableViewDelegate, UITable
     
     @IBAction func actionButtonTapped(_ sender: UIButton) {
 
-        let nextIndex = (expandedIndex ?? -1) + 1
+        let next = (expandedIndex ?? -1) + 1
 
-        if nextIndex < steps.count {
-            expandedIndex = nextIndex
-        } else {
-            print("Capture Activity Moment")
-        }
+            if next < steps.count {
+                expandedIndex = next
+                tableView.reloadData()
 
-        tableView.reloadData()
-        updateButtonTitle()
+                tableView.scrollToRow(
+                    at: IndexPath(row: next, section: 0),
+                    at: .middle,
+                    animated: true
+                )
+            } else {
+                print("Capture Activity Moment")
+            }
+
+            updateButtonTitle()
     }
     
     func updateButtonTitle() {

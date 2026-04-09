@@ -53,28 +53,28 @@
         "stepLabel": "Step 1",
         "title": "Create Targets",
         "detail": "Cut holes in a cardboard box and assign point values to each hole.",
-        "imageName": "step1_target_practice",
+        "imageName": "Step 1 Target Practice",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Take Turns",
         "detail": "Throw soft balls or beanbags from increasing distances.",
-        "imageName": "step2_target_practice",
+        "imageName": "Step 2 Target Practice",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Count the Score",
         "detail": "Let the child add up points after each round — sneaky maths practice!",
-        "imageName": "step3_target_practice",
+        "imageName": "Step 3 Target Practice",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Develops hand-eye coordination, gross motor skills, and basic addition.",
-        "imageName": "benefits",
+        "imageName": "Benefits Target Practice",
         "isExpanded": false
       }
     ]
@@ -93,21 +93,21 @@
         "stepLabel": "Step 1",
         "title": "Start with Yourself",
         "detail": "Share one thing you felt grateful for today.",
-        "imageName": "step1_gratitude_sharing",
+        "imageName": "Step 1 Gratitude Sharing",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Ask Your Child",
         "detail": "Encourage them to share even small happy moments.",
-        "imageName": "step2_gratitude_sharing",
+        "imageName": "Step 2 Gratitude Sharing",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Appreciate Together",
         "detail": "Acknowledge each other's thoughts and end with positivity.",
-        "imageName": "step3_gratitude_sharing",
+        "imageName": "Step 3 Gratitude Sharing",
         "isExpanded": false
       }
     ]
@@ -126,21 +126,21 @@
         "stepLabel": "Step 1",
         "title": "Pick a Feeling",
         "detail": "Ask your child: 'What colour does your mood feel like today?' and share yours too.",
-        "imageName": "step1_feelings_checkin",
+        "imageName": "Step 1 Feelings",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Name the Feeling",
         "detail": "Help them put a word to it — happy, nervous, excited, tired.",
-        "imageName": "step2_feelings_checkin",
+        "imageName": "Step 2 Feelings",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Builds emotional vocabulary and makes children feel heard every single day.",
-        "imageName": "benefits",
+        "imageName": "Benefits Feelings",
         "isExpanded": false
       }
     ]
@@ -159,28 +159,28 @@
         "stepLabel": "Step 1",
         "title": "Decorate the Jar",
         "detail": "Let your child paint or sticker a glass jar to make it special.",
-        "imageName": "step1_gratitude_jar",
+        "imageName": "Step 1 Jar",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Write Daily",
         "detail": "Each evening write one thing that made you happy on a slip of paper and add it.",
-        "imageName": "step2_gratitude_jar",
+        "imageName": "Step 2 Jar",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Read Together",
         "detail": "On weekends, read a few slips out loud together.",
-        "imageName": "step3_gratitude_jar",
+        "imageName": "Step 3 Jar",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Builds a gratitude mindset, positive thinking, and family connection.",
-        "imageName": "benefits",
+        "imageName": "Benefits Jar",
         "isExpanded": false
       }
     ]
@@ -199,28 +199,28 @@
         "stepLabel": "Step 1",
         "title": "Prepare Materials",
         "detail": "Place a small bottle in a tray and fill it with baking soda and food colouring.",
-        "imageName": "step1_kitchen_science",
+        "imageName": "Step 1 Kitchen",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Create the Reaction",
         "detail": "Let the child slowly pour vinegar and watch the bubbling explosion.",
-        "imageName": "step2_kitchen_science",
+        "imageName": "Step 2 Kitchen",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Discuss Why",
         "detail": "Ask 'why do you think it bubbled?' and guide them to the acid-base idea.",
-        "imageName": "step3_kitchen_science",
+        "imageName": "Step 3 Kitchen",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Teaches cause-and-effect and introduces science concepts visually.",
-        "imageName": "benefits",
+        "imageName": "Benefits Kitchen",
         "isExpanded": false
       }
     ]
@@ -239,28 +239,28 @@
         "stepLabel": "Step 1",
         "title": "Count Items",
         "detail": "Ask your child to count plates, spoons, or glasses needed for the family.",
-        "imageName": "step1_mealtime_math",
+        "imageName": "Step 1 Mealtime Math",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Estimate Volumes",
         "detail": "Let the child guess how many spoons of water will fill a cup.",
-        "imageName": "step2_mealtime_math",
+        "imageName": "Step 2 Mealtime Math",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Sort & Group",
         "detail": "Sort food by colour, shape, or size — a sneaky intro to classification.",
-        "imageName": "step3_mealtime_math",
+        "imageName": "Step 3 Mealtime Math",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Builds early maths skills, estimation, and logical thinking.",
-        "imageName": "benefits",
+        "imageName": "Benefits Mealtime Math",
         "isExpanded": false
       }
     ]
@@ -279,28 +279,28 @@
         "stepLabel": "Step 1",
         "title": "Set Up Bottle",
         "detail": "Fill a clear plastic bottle with water and drop in a ketchup packet.",
-        "imageName": "step1_floating_ketchup",
+        "imageName": "Step 1 Ketchup",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Squeeze & Release",
         "detail": "Squeeze the bottle to make the packet sink and release to make it float.",
-        "imageName": "step2_floating_ketchup",
+        "imageName": "Step 2 Ketchup",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Guess Why",
         "detail": "Ask the child to predict what will happen before each squeeze.",
-        "imageName": "step3_floating_ketchup",
+        "imageName": "Step 3 Ketchup",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Introduces density and pressure concepts through hands-on play.",
-        "imageName": "benefits",
+        "imageName": "Benefits Ketchup",
         "isExpanded": false
       }
     ]
@@ -319,21 +319,21 @@
         "stepLabel": "Step 1",
         "title": "Set up a fun writing space",
         "detail": "Create a small writing corner with paper, envelopes, and pens. Tell your child you're opening a 'post office' and they are in charge. This makes the activity feel exciting instead of like a task.",
-        "imageName": "step1_writing_centre",
+        "imageName": "Step 1 Home Writing",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Write something meaningful",
         "detail": "Ask them to write or draw a letter for someone — a family member, friend, or even a toy. If they can't write yet, let them draw and tell you what to write. The goal is expression, not perfection.",
-        "imageName": "step2_writing_centre",
+        "imageName": "Step 2 Home Writing",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Deliver the message",
         "detail": "Deliver letters around the house — under doors or to the kitchen. This makes writing feel real and fun, and children naturally want to do more of it.",
-        "imageName": "step3_writing_centre",
+        "imageName": "Step 3 Home Writing",
         "isExpanded": false
       }
     ]
@@ -352,21 +352,21 @@
         "stepLabel": "Step 1",
         "title": "Paint the Stones",
         "detail": "Paint simple pictures on smooth rocks — a sun, a house, a dog, a cloud.",
-        "imageName": "step1_story_stones",
+        "imageName": "Step 1 Story Stones",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Build a Story",
         "detail": "Take turns picking a stone and adding a sentence to the story.",
-        "imageName": "step2_story_stones",
+        "imageName": "Step 2 Story Stones",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Sparks narrative thinking, turn-taking, and imaginative language.",
-        "imageName": "benefits",
+        "imageName": "Benefits Story Stones",
         "isExpanded": false
       }
     ]
@@ -385,28 +385,28 @@
         "stepLabel": "Step 1",
         "title": "Start with a Story",
         "detail": "Tell something from your childhood.",
-        "imageName": "step1_memory_sharing",
+        "imageName": "Step 1 Memory Sharing",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Ask Them",
         "detail": "Ask if they have similar feelings or stories.",
-        "imageName": "step2_memory_sharing",
+        "imageName": "Step 2 Memory Sharing",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Laugh Together",
         "detail": "Keep it light and fun.",
-        "imageName": "step3_memory_sharing",
+        "imageName": "Step 3 Memory Sharing",
         "isExpanded": false
       },
       {
         "stepLabel": "Why it matters",
         "title": "Builds emotional bond",
         "detail": "They feel closer to you.",
-        "imageName": "benefits",
+        "imageName": "Benefits Memory Sharing",
         "isExpanded": false
       }
     ]
@@ -425,21 +425,21 @@
         "stepLabel": "Step 1",
         "title": "Set Up Objects",
         "detail": "Place toys or household items on paper in sunlight near a window.",
-        "imageName": "step1_shadow_drawing",
+        "imageName": "Step 1 Shadow Drawing",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Trace the Shadow",
         "detail": "Trace the shadow outline and then decorate it however the child likes.",
-        "imageName": "step2_shadow_drawing",
+        "imageName": "Step 2 Shadow Drawing",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Teaches light and shadow concepts and develops fine motor control.",
-        "imageName": "benefits",
+        "imageName": "Benefits Shadow Drawing",
         "isExpanded": false
       }
     ]
@@ -458,28 +458,28 @@
         "stepLabel": "Step 1",
         "title": "Make a Checklist",
         "detail": "Create a list of items — a smooth rock, a Y-shaped stick, a yellow flower.",
-        "imageName": "step1_nature_hunt",
+        "imageName": "Step 1 Nature",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Explore Together",
         "detail": "Walk through a park or garden and search for each item together.",
-        "imageName": "step2_nature_hunt",
+        "imageName": "Step 2 Nature",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Sort the Finds",
         "detail": "Back home, sort collected items by size, colour, or texture.",
-        "imageName": "step3_nature_hunt",
+        "imageName": "Step 3 Nature",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Improves observation skills, environmental awareness, and physical activity.",
-        "imageName": "benefits",
+        "imageName": "Benefits Nature",
         "isExpanded": false
       }
     ]
@@ -498,28 +498,28 @@
         "stepLabel": "Step 1",
         "title": "Build Creations",
         "detail": "Let the child build anything they like — no rules on what to make.",
-        "imageName": "step1_lego_museum",
+        "imageName": "Step 1 Lego",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Museum Tour",
         "detail": "Ask the child to explain each creation as if guiding visitors around a museum.",
-        "imageName": "step2_lego_museum",
+        "imageName": "Step 2 Lego",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Add Labels",
         "detail": "Write little title cards for each exhibit like a real museum.",
-        "imageName": "step3_lego_museum",
+        "imageName": "Step 3 Lego",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Develops language skills, confidence, spatial reasoning, and storytelling.",
-        "imageName": "benefits",
+        "imageName": "Benefits Lego",
         "isExpanded": false
       }
     ]
@@ -538,28 +538,28 @@
         "stepLabel": "Step 1",
         "title": "Pick an Idea",
         "detail": "House, car, robot — anything.",
-        "imageName": "step1_build_together",
+        "imageName": "Step 1 Build",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Work Together",
         "detail": "Divide small tasks.",
-        "imageName": "step2_build_together",
+        "imageName": "Step 2 Build",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Show & Explain",
         "detail": "Let your child explain what they made.",
-        "imageName": "step3_build_together",
+        "imageName": "Step 3 Build",
         "isExpanded": false
       },
       {
         "stepLabel": "Why it matters",
         "title": "Encourages teamwork",
         "detail": "Builds creativity and confidence.",
-        "imageName": "benefits",
+        "imageName": "Benefits Build",
         "isExpanded": false
       }
     ]
@@ -578,28 +578,28 @@
         "stepLabel": "Step 1",
         "title": "Prepare Carton",
         "detail": "Cut an egg carton into a strip — each cup becomes one segment of the caterpillar.",
-        "imageName": "step1_egg_caterpillar",
+        "imageName": "Step 1 Egg",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Paint Together",
         "detail": "Let the child choose colours and paint each segment.",
-        "imageName": "step2_egg_caterpillar",
+        "imageName": "Step 2 Egg",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Add Details",
         "detail": "Poke pipe cleaners through for antennae and draw a face on the front.",
-        "imageName": "step3_egg_caterpillar",
+        "imageName": "Step 3 Egg",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Builds fine motor control, creativity, and pride in making something.",
-        "imageName": "benefits",
+        "imageName": "Benefits Egg",
         "isExpanded": false
       }
     ]
@@ -618,28 +618,28 @@
         "stepLabel": "Step 1",
         "title": "Dim the Room",
         "detail": "Turn off the lights and use a flashlight to illuminate objects one at a time.",
-        "imageName": "step1_flashlight_story",
+        "imageName": "Step 1 Flashlight",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Create Stories",
         "detail": "Take turns telling a short story about whatever the light lands on.",
-        "imageName": "step2_flashlight_story",
+        "imageName": "Step 2 Flashlight",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Continue the Story",
         "detail": "Each person must continue from where the last person left off.",
-        "imageName": "step3_flashlight_story",
+        "imageName": "Step 3 Flashlight",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Boosts language development, creativity, and emotional bonding.",
-        "imageName": "benefits",
+        "imageName": "Benefits Flashlight",
         "isExpanded": false
       }
     ]
@@ -658,28 +658,28 @@
         "stepLabel": "Step 1",
         "title": "Coat the Cone",
         "detail": "Roll a pine cone in peanut butter until fully covered.",
-        "imageName": "step1_bird_feeder",
+        "imageName": "Step 1 Bird",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Add Seeds",
         "detail": "Roll it in birdseed and tie a string around the top to hang it.",
-        "imageName": "step2_bird_feeder",
+        "imageName": "Step 2 Bird",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Observe Together",
         "detail": "Hang it outside and keep a notebook to record which birds visit.",
-        "imageName": "step3_bird_feeder",
+        "imageName": "Step 3 Bird",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Teaches responsibility, patience, and appreciation for nature.",
-        "imageName": "benefits",
+        "imageName": "Benefits Bird",
         "isExpanded": false
       }
     ]
@@ -698,28 +698,28 @@
         "stepLabel": "Step 1",
         "title": "Pick a Plant",
         "detail": "Let the child choose a seed — basil, sunflower, and marigold all grow quickly.",
-        "imageName": "step1_mini_garden",
+        "imageName": "Step 1 Garden",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 2",
         "title": "Plant Together",
         "detail": "Fill a pot with soil, make a hole, drop in the seed, and cover it gently.",
-        "imageName": "step2_mini_garden",
+        "imageName": "Step 2 Garden",
         "isExpanded": false
       },
       {
         "stepLabel": "Step 3",
         "title": "Daily Care",
         "detail": "Assign the child as the official plant caretaker — water it every morning.",
-        "imageName": "step3_mini_garden",
+        "imageName": "Step 3 Garden",
         "isExpanded": false
       },
       {
         "stepLabel": "Benefits",
         "title": "Why It Helps",
         "detail": "Teaches responsibility, patience, and the science of plant growth.",
-        "imageName": "benefits",
+        "imageName": "Benefits Garden",
         "isExpanded": false
       }
     ]

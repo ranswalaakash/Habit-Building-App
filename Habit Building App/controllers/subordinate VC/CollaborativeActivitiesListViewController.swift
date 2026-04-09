@@ -40,12 +40,10 @@ class CollaborativeActivitiesListViewController: UIViewController {
         ) { _ in
             
             if self.selectedTime != nil {
-                // 🔥 TOGGLE OFF
                 self.selectedTime = nil
                 self.applyAdvancedFilter()
                 self.setupFilterMenu()
             } else {
-                // 🔥 OPEN OPTIONS
                 self.showTimeFilter()
             }
         }
